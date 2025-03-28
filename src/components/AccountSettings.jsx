@@ -1,4 +1,4 @@
-
+import ellipse from "../assets/Ellipse114.png";
 
 const AccountSettings = () => {
   return (
@@ -7,7 +7,7 @@ const AccountSettings = () => {
       <div className="account-card">
         <div className="profile-section">
           <img
-            src="/Ellipse 114/Ellipse 114.png" 
+            src={ellipse}  
             alt="Profile"
             className="profile-image"
           />
